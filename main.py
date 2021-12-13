@@ -1,7 +1,7 @@
 n = int(input('digite um numero: '))
 n1=1
 n2=1
-total=0
+total=1
 num = ['1/1']
 while n1 < n:
     n1 += 1
@@ -11,4 +11,4 @@ while n1 < n:
 print('''
 a sequencia de numeros é
 {}
-e sua soma é = {:.2f}'''.format(num,total))
+e sua soma é = {:.4f}'''.format(num,total))
